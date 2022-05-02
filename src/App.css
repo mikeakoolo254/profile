@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+:root {
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+}
+
+/* base styles & title */
+body {
+  color: var(--secondary);
+  font-size: 13px;
+  font-family: Neue, Helvetica, Arial, sans-serif;
+}
+
+.App {
+  font-family: Neue, Helvetica, Arial, sans-serif;
+  font-size: 8px;
+  max-width: 960px;
+  margin: 0 auto;
+}
